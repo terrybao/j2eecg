@@ -102,65 +102,11 @@
         />
       </div>
     </el-card>
-    
-    <!-- 对话框 -->
-    <el-dialog
-      v-model="dialogVisible"
-      :title="dialogTitle"
-      width="770px"
-    >
-      <el-form :model="formData" :rules="formRules" ref="formRef" label-width="80px">
-        <el-form-item label="名称" prop="name">
-          <el-input v-model="formData.name" placeholder="请输入名称"></el-input>
-        </el-form-item>
-        <el-form-item label="年龄" prop="age">
-          <el-input v-model="formData.age" type="number" placeholder="请输入年龄"></el-input>
-        </el-form-item>
-        <el-form-item label="生日" prop="birthday">
-          <el-date-picker v-model="formData.birthday" type="date" placeholder="选择日期"></el-date-picker>
-        </el-form-item>
-        <el-form-item label="部门" prop="depId">
-          <el-select v-model="formData.depId" placeholder="请选择部门">
-            <el-option label="部门1" value="1"></el-option>
-            <el-option label="部门2" value="2"></el-option>
-            <el-option label="部门3" value="3"></el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item label="性别" prop="sex">
-          <el-radio-group v-model="formData.sex">
-            <el-radio label="1">男</el-radio>
-            <el-radio label="0">女</el-radio>
-          </el-radio-group>
-        </el-form-item>
-        <el-form-item label="电话" prop="phone">
-          <el-input v-model="formData.phone" placeholder="请输入电话"></el-input>
-        </el-form-item>
-        <el-form-item label="工资" prop="salary">
-          <el-input v-model="formData.salary" type="number" placeholder="请输入工资"></el-input>
-        </el-form-item>
-        <el-form-item label="邮箱" prop="email">
-          <el-input v-model="formData.email" placeholder="请输入邮箱"></el-input>
-        </el-form-item>
-        <el-form-item label="入职状态" prop="status">
-          <el-select v-model="formData.status" placeholder="请选择状态">
-            <el-option label="已入职" value="Y"></el-option>
-            <el-option label="未入职" value="N"></el-option>
-          </el-select>
-        </el-form-item>
-      </el-form>
-      <template #footer>
-        <span class="dialog-footer">
-          <el-button @click="dialogVisible = false">取消</el-button>
-          <el-button type="primary" @click="handleSubmit">确定</el-button>
-        </span>
-      </template>
-    </el-dialog>
   </div>
 </template>
 
 <script setup>
-import { ref, reactive, onMounted, computed } from 'vue'
-import axios from 'axios'
+import { ref, reactive, onMounted } from 'vue'
 import { ElMessageBox, ElMessage } from 'element-plus'
 
 // 表格数据
@@ -177,22 +123,6 @@ const searchForm = reactive({
   age: '',
   depId: ''
 })
-
-// 对话框
-const dialogVisible = ref(false)
-const dialogTitle = ref('')
-const formData = reactive({})
-const formRef = ref(null)
-
-// 表单验证规则
-const formRules = {
-  name: [
-    { required: true, message: '请输入名称', trigger: 'blur' }
-  ],
-  age: [
-    { required: true, message: '请输入年龄', trigger: 'blur' }
-  ]
-}
 
 // 格式化年龄
 const formatAge = (age) => {
@@ -250,29 +180,12 @@ const handleCurrentChange = (current) => {
 
 // 添加
 const handleAdd = () => {
-  dialogTitle.value = '添加'
-  formData.id = ''
-  formData.name = ''
-  formData.age = ''
-  formData.birthday = ''
-  formData.depId = ''
-  formData.sex = '1'
-  formData.phone = ''
-  formData.salary = ''
-  formData.email = ''
-  formData.status = 'N'
-  dialogVisible.value = true
+  ElMessage.info('添加功能开发中')
 }
 
 // 编辑
 const handleEdit = (id) => {
-  dialogTitle.value = '编辑'
-  // 模拟获取数据
-  const row = tableData.value.find(item => item.id === id)
-  if (row) {
-    Object.assign(formData, row)
-    dialogVisible.value = true
-  }
+  ElMessage.info('编辑功能开发中')
 }
 
 // 删除
@@ -325,33 +238,6 @@ const handleImport = () => {
 // 导出
 const handleExport = () => {
   ElMessage.info('导出功能开发中')
-}
-
-// 提交表单
-const handleSubmit = () => {
-  formRef.value.validate((valid) => {
-    if (valid) {
-      if (formData.id) {
-        // 编辑
-        const index = tableData.value.findIndex(item => item.id === formData.id)
-        if (index !== -1) {
-          tableData.value[index] = { ...formData }
-        }
-        ElMessage.success('编辑成功')
-      } else {
-        // 添加
-        const newItem = {
-          ...formData,
-          id: Date.now(),
-          createDate: new Date(),
-          updateDate: new Date()
-        }
-        tableData.value.unshift(newItem)
-        ElMessage.success('添加成功')
-      }
-      dialogVisible.value = false
-    }
-  })
 }
 
 // 获取数据

@@ -1,0 +1,2250 @@
+{
+  "total_files": 388,
+  "total_lines": 49730,
+  "file_details": [
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/PointChart3.jsp",
+      "lines": 1613,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/fineui_home.jsp",
+      "lines": 1538,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/diy.jsp",
+      "lines": 1255,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/jeecg/superquery/dialog.jsp",
+      "lines": 988,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/hplushome.jsp",
+      "lines": 970,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/ace_main2.jsp",
+      "lines": 919,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/ace_main.jsp",
+      "lines": 838,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/bootstrap-echarts.jsp",
+      "lines": 677,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/adminlte_main.jsp",
+      "lines": 660,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/adminlte_home.jsp",
+      "lines": 594,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/main/hplus_main.jsp",
+      "lines": 506,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/PointChart1.jsp",
+      "lines": 506,
+      "complexity": "high"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgFormHeadList.jsp",
+      "lines": 458,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgFormHead.jsp",
+      "lines": 458,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/organzation/myDepartList.jsp",
+      "lines": 422,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/fineui_main.jsp",
+      "lines": 406,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderMain-update.jsp",
+      "lines": 406,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgFormHeadConfigList.jsp",
+      "lines": 402,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/superQueryDemo.jsp",
+      "lines": 391,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/cgformFtlUEditor.jsp",
+      "lines": 380,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/vueList.jsp",
+      "lines": 373,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/organzation/comDepartList.jsp",
+      "lines": 363,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/PieChart2.jsp",
+      "lines": 363,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_natures.jsp",
+      "lines": 356,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/suggest.jsp",
+      "lines": 348,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/vueNewList.jsp",
+      "lines": 343,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/shortcut_main.jsp",
+      "lines": 335,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderMain-add.jsp",
+      "lines": 329,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/template/cgformTemplate-update.jsp",
+      "lines": 324,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/template/cgformTemplate-add.jsp",
+      "lines": 301,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-list.jsp",
+      "lines": 285,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/acehome.jsp",
+      "lines": 284,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_nature.jsp",
+      "lines": 283,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/user/myOrgUser.jsp",
+      "lines": 274,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/main.jsp",
+      "lines": 266,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/main/addOrUpdate.jsp",
+      "lines": 257,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/plupload/plupload1.jsp",
+      "lines": 251,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/Schedule.jsp",
+      "lines": 247,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/querysBuilderDemo.jsp",
+      "lines": 246,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/draggablePanels.jsp",
+      "lines": 246,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/homeTab.jsp",
+      "lines": 239,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/authGroup/depart_role_auth.jsp",
+      "lines": 235,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/preview.jsp",
+      "lines": 227,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/main/sliding_main.jsp",
+      "lines": 226,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/multiUpload-update.jsp",
+      "lines": 214,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-add-btn.jsp",
+      "lines": 212,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/authGroup/depart_role.jsp",
+      "lines": 211,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/jeecg/graphreport/jformGraphreportItemList.jsp",
+      "lines": 209,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/select_multi.jsp",
+      "lines": 208,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/dataLog/dataDiff.jsp",
+      "lines": 207,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/specialLayout.jsp",
+      "lines": 207,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/reportDemo.jsp",
+      "lines": 206,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_webuploader.jsp",
+      "lines": 204,
+      "complexity": "medium"
+    },
+    {
+      "path": "webpage/system/depart/departList.jsp",
+      "lines": 199,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_QRCode.jsp",
+      "lines": 193,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/PieChart1.jsp",
+      "lines": 193,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/generate/one2many.jsp",
+      "lines": 193,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/login.jsp",
+      "lines": 191,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/superquery/superQueryFieldList.jsp",
+      "lines": 190,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/lineChart4.jsp",
+      "lines": 188,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/generate/single.jsp",
+      "lines": 188,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/ztreeDemo.jsp",
+      "lines": 185,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-add.jsp",
+      "lines": 184,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-update.jsp",
+      "lines": 183,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo.jsp",
+      "lines": 183,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/graphreport/jformGraphreportHead-update.jsp",
+      "lines": 182,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/graphreport/jformGraphreportHead-add.jsp",
+      "lines": 182,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/interroleSet.jsp",
+      "lines": 181,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/myDepartUserList.jsp",
+      "lines": 179,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleSet.jsp",
+      "lines": 179,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-add2.jsp",
+      "lines": 179,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-update2.jsp",
+      "lines": 179,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-add.jsp",
+      "lines": 176,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dbsource/dbSource.jsp",
+      "lines": 174,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/depart_role_user_auth.jsp",
+      "lines": 173,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subjob-edit.jsp",
+      "lines": 171,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subcompany-edit.jsp",
+      "lines": 171,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/suborg-edit.jsp",
+      "lines": 171,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/superquery/superQueryMain-update.jsp",
+      "lines": 171,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/function/function.jsp",
+      "lines": 167,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/function/functionList.jsp",
+      "lines": 165,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-nature-ace-add.jsp",
+      "lines": 165,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-update.jsp",
+      "lines": 165,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/fillrule/tSFillRule-add.jsp",
+      "lines": 165,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-nature-ace-update.jsp",
+      "lines": 164,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/superquery/superQueryTableList.jsp",
+      "lines": 164,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/superquery/superQueryMain-add.jsp",
+      "lines": 164,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_uitag.jsp",
+      "lines": 163,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_valid.jsp",
+      "lines": 163,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemoList-collapse.jsp",
+      "lines": 163,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/user.jsp",
+      "lines": 161,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/vueBootstrapTableList.jsp",
+      "lines": 161,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jeecgDemoExcel-update.jsp",
+      "lines": 161,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jeecgDemoExcel-add.jsp",
+      "lines": 158,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/departRoleAuthorised.jsp",
+      "lines": 157,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/departAuthorised.jsp",
+      "lines": 157,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderMain2Index.jsp",
+      "lines": 151,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jfromOrder-add.jsp",
+      "lines": 149,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/cgreportConfigHead-add.jsp",
+      "lines": 146,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/login3.jsp",
+      "lines": 145,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/authGroupSet.jsp",
+      "lines": 145,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/departGroupUserList.jsp",
+      "lines": 142,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/tSNotice-update.jsp",
+      "lines": 142,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemoList.jsp",
+      "lines": 142,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subjob-add.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subcompany-add.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/suborg-add.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/dropDownDatagrid.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/cgreportConfigHead-update.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/fillrule/tSFillRule-update.jsp",
+      "lines": 140,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/hplus/plugins/fullavatareditor/jsp/upload.jsp",
+      "lines": 139,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/multiUpload-add.jsp",
+      "lines": 138,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigHead-add.jsp",
+      "lines": 138,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/resetPwd.jsp",
+      "lines": 137,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/depart/depart.jsp",
+      "lines": 137,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/vueBootstrapTableEdit.jsp",
+      "lines": 137,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jfromOrder-update.jsp",
+      "lines": 137,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigHead-update.jsp",
+      "lines": 137,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/tSNotice-add.jsp",
+      "lines": 134,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/printingDemo.jsp",
+      "lines": 134,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subjob-detail.jsp",
+      "lines": 133,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/suborg-detail.jsp",
+      "lines": 133,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/subcompany-detail.jsp",
+      "lines": 133,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/userList.jsp",
+      "lines": 127,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/goResetPwdMail.jsp",
+      "lines": 126,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleSet-old.jsp",
+      "lines": 126,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/lineChart2.jsp",
+      "lines": 126,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/company-add.jsp",
+      "lines": 124,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-nature-ace-list.jsp",
+      "lines": 124,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jfromOrderLineList.jsp",
+      "lines": 120,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_interfaceTestDemo.jsp",
+      "lines": 119,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderCustomer2/add.jsp",
+      "lines": 119,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderCustomerList.jsp",
+      "lines": 119,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/bootstrapTreeList.jsp",
+      "lines": 118,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/logrp-chart.jsp",
+      "lines": 116,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderCustomer2/update.jsp",
+      "lines": 116,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/vueBootstrapTableAdd.jsp",
+      "lines": 115,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/functionIconStyleList.jsp",
+      "lines": 113,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/BarGraph3.jsp",
+      "lines": 112,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/funnelPlot2.jsp",
+      "lines": 112,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/departList.jsp",
+      "lines": 110,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jfromOrderGridViewList.jsp",
+      "lines": 110,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/addDepartRoleAuth.jsp",
+      "lines": 109,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/BarGraph2.jsp",
+      "lines": 109,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSms-add.jsp",
+      "lines": 108,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/main/jformOrderCustomer2.jsp",
+      "lines": 108,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/PointChart2.jsp",
+      "lines": 108,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/BarGraph4.jsp",
+      "lines": 108,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/lineChart5.jsp",
+      "lines": 107,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/lineChart3.jsp",
+      "lines": 107,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/interface.jsp",
+      "lines": 106,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/comDepartUserList.jsp",
+      "lines": 105,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/depart.jsp",
+      "lines": 105,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/updateDepartRoleAuth.jsp",
+      "lines": 101,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/function/dataFunction.jsp",
+      "lines": 101,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleList.jsp",
+      "lines": 101,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/dataInterface.jsp",
+      "lines": 99,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/departSelect.jsp",
+      "lines": 99,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/list_rowedtior.jsp",
+      "lines": 96,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/funnelPlot1.jsp",
+      "lines": 96,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderTicket2/add.jsp",
+      "lines": 95,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/enhance/cgformEnhanceJava.jsp",
+      "lines": 95,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/position/tSCompanyPosition-add.jsp",
+      "lines": 94,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/position/tSCompanyPosition-update.jsp",
+      "lines": 94,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/RectangularGraph.jsp",
+      "lines": 94,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/bootstrap_main.jsp",
+      "lines": 93,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderTicket2/update.jsp",
+      "lines": 93,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/swfView.jsp",
+      "lines": 93,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/imageUp.jsp",
+      "lines": 92,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/imageUp.jsp",
+      "lines": 92,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleTree.jsp",
+      "lines": 92,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/404.jsp",
+      "lines": 92,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/main/jformOrderTicket2.jsp",
+      "lines": 91,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/BarGraph1.jsp",
+      "lines": 91,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/noAuth.jsp",
+      "lines": 91,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/cgreportConfigItemList.jsp",
+      "lines": 91,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigItemList.jsp",
+      "lines": 91,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/usersRole.jsp",
+      "lines": 89,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/userSelect.jsp",
+      "lines": 89,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/template/cgformTemplateList.jsp",
+      "lines": 88,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/lineChart1.jsp",
+      "lines": 87,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dataLog/dataLogList.jsp",
+      "lines": 86,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/icon/icons.jsp",
+      "lines": 85,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/addUserSelect.jsp",
+      "lines": 83,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/interfaceUser.jsp",
+      "lines": 83,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderCustomerListBase.jsp",
+      "lines": 83,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplate-update.jsp",
+      "lines": 82,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplate-add.jsp",
+      "lines": 82,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/getRemoteImage.jsp",
+      "lines": 81,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/getRemoteImage.jsp",
+      "lines": 81,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/interroleList.jsp",
+      "lines": 81,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dicttable/tSDictTableConfig-add.jsp",
+      "lines": 81,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/uploadView.jsp",
+      "lines": 81,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dicttable/tSDictTableConfig-update.jsp",
+      "lines": 80,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/gridSelectdemo.jsp",
+      "lines": 80,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderTicketList.jsp",
+      "lines": 80,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/function/depart.jsp",
+      "lines": 79,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSms-update.jsp",
+      "lines": 79,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/depart.jsp",
+      "lines": 79,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/orgSelect.jsp",
+      "lines": 78,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/depart/orgSelect.jsp",
+      "lines": 78,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-print.jsp",
+      "lines": 78,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/departSelect.jsp",
+      "lines": 76,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/myDepartSelect.jsp",
+      "lines": 76,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/depart/departSelect.jsp",
+      "lines": 76,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jxlsOne2manySub.jsp",
+      "lines": 76,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dataLog/diffDataVersion.jsp",
+      "lines": 75,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/taglist_mysearch.jsp",
+      "lines": 75,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/main/jformOrderMain2.jsp",
+      "lines": 75,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/taglist_mysearch2.jsp",
+      "lines": 73,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/document/files.jsp",
+      "lines": 72,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/superquery/superQueryMainList.jsp",
+      "lines": 72,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/changestyle.jsp",
+      "lines": 71,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/interfaceList.jsp",
+      "lines": 71,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/ueditor.jsp",
+      "lines": 71,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/authDeptSelect.jsp",
+      "lines": 70,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/showDepartRoleAuth.jsp",
+      "lines": 70,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/operation/operation.jsp",
+      "lines": 70,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/mutitables_excel_upload.jsp",
+      "lines": 70,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplateSql-update.jsp",
+      "lines": 69,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplateSql-add.jsp",
+      "lines": 69,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplateList.jsp",
+      "lines": 69,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/userBroswer.jsp",
+      "lines": 69,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_popupMultiValue.jsp",
+      "lines": 69,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigParamList.jsp",
+      "lines": 68,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/button/cgformButtonSql.jsp",
+      "lines": 68,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/logList.jsp",
+      "lines": 67,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/userBroswerLine.jsp",
+      "lines": 66,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/plupload/plupload3.jsp",
+      "lines": 65,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jeecgDemoExcelList.jsp",
+      "lines": 65,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/commonupload/commonUploadFile.jsp",
+      "lines": 64,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/cgreportConfigParamList.jsp",
+      "lines": 64,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/userBroswerPie.jsp",
+      "lines": 63,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/noticeAuthorityUserList.jsp",
+      "lines": 62,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_selectSort.jsp",
+      "lines": 62,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/typeGroupList.jsp",
+      "lines": 60,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/noticeAuthorityRoleList.jsp",
+      "lines": 60,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/functionList.jsp",
+      "lines": 60,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-list-tag2.jsp",
+      "lines": 60,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/button/cgformButton.jsp",
+      "lines": 60,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/cgformFtlList2.jsp",
+      "lines": 58,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/enhance/cgformenhanceJs.jsp",
+      "lines": 58,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/category/category.jsp",
+      "lines": 57,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/imageManager.jsp",
+      "lines": 56,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/imageManager.jsp",
+      "lines": 56,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/position/tSCompanyPositionList.jsp",
+      "lines": 56,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/logList.jsp",
+      "lines": 56,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/noticeList.jsp",
+      "lines": 54,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderMainListBase.jsp",
+      "lines": 54,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/fillrule/tSFillRuleList.jsp",
+      "lines": 54,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/multiUploadList.jsp",
+      "lines": 53,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/plupload/plupload5.jsp",
+      "lines": 53,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/tSNoticeList.jsp",
+      "lines": 52,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jfromOrderList.jsp",
+      "lines": 52,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/siteSelect.jsp",
+      "lines": 52,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderCustomer2/list.jsp",
+      "lines": 52,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/graphreport/jformGraphreportHeadList.jsp",
+      "lines": 52,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/timetask/timeTask.jsp",
+      "lines": 51,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/main/list.jsp",
+      "lines": 51,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/cgreportConfigHeadList.jsp",
+      "lines": 51,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/trans/transList.jsp",
+      "lines": 51,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigHeadList.jsp",
+      "lines": 50,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/home.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/functionList.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/logDetail.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/taglist_minidao.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jformOrderMain2/jformOrderTicket2/list.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/other1.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/InstrumentDiagram.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/button/cgformButtonSqlOut.jsp",
+      "lines": 49,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/mutilang/mutiLang.jsp",
+      "lines": 48,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dataRule/ruleData.jsp",
+      "lines": 48,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/ruleData.jsp",
+      "lines": 48,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/black/tsBlackListList.jsp",
+      "lines": 47,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsSql-add.jsp",
+      "lines": 45,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsSql-update.jsp",
+      "lines": 45,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/cgformUploadImglist.jsp",
+      "lines": 45,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsDetailList.jsp",
+      "lines": 44,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/category/categoryList.jsp",
+      "lines": 44,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemoList-multihead.jsp",
+      "lines": 44,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/departAuthGroupShow.jsp",
+      "lines": 42,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-check.jsp",
+      "lines": 42,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/cgformFtlList.jsp",
+      "lines": 42,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/black/tsBlackList-add.jsp",
+      "lines": 41,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/departRoleAuthGroupShow.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/noCurDepartMyOrgUserList.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/noCurRoleUserList.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/depart/noCurDepartUserList.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/cgformUploadFilelist.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/black/tsBlackList-update.jsp",
+      "lines": 40,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/noCurDepartUserList.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsTemplateSqlList.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/noCurInterRoleUserList.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jxlsOne2manyMain.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgreport/core/popmenulink.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/popmenulink.jsp",
+      "lines": 39,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/fileUp.jsp",
+      "lines": 38,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/fileUp.jsp",
+      "lines": 38,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/type.jsp",
+      "lines": 38,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dataLog/popDataContent.jsp",
+      "lines": 37,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/jeecgDemo-bootstrap-list-tag.jsp",
+      "lines": 36,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/cgformFtlEditor.jsp",
+      "lines": 36,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/generate/fileTree.jsp",
+      "lines": 36,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/scrawlUp.jsp",
+      "lines": 35,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/scrawlUp.jsp",
+      "lines": 35,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/user-delete.jsp",
+      "lines": 35,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/userOrgSelect.jsp",
+      "lines": 35,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/getMovie.jsp",
+      "lines": 34,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/getMovie.jsp",
+      "lines": 34,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/mySmsList.jsp",
+      "lines": 34,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/timetask/timeTaskList.jsp",
+      "lines": 33,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/interrole.jsp",
+      "lines": 33,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/userList-select.jsp",
+      "lines": 33,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/init.jsp",
+      "lines": 32,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/imageView.jsp",
+      "lines": 32,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/ckeditor.jsp",
+      "lines": 31,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dicttable/tSDictTableConfigList.jsp",
+      "lines": 30,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/changepassword.jsp",
+      "lines": 30,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/roleOperationListForFunction.jsp",
+      "lines": 29,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/operationListForFunction.jsp",
+      "lines": 29,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/adminchangepwd.jsp",
+      "lines": 29,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/roleDataRuleListForFunction.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/authGroup/dataRuleListForFunction.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/function/menuAppList.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/operationListForFunction.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/menuAppList.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/demoTab.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/echartsDemo/TotalReport.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/orderOne2Many/jformOrderMainList.jsp",
+      "lines": 28,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/typeListForTypegroup.jsp",
+      "lines": 27,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/dataRuleListForInterface.jsp",
+      "lines": 27,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/changeportrait.jsp",
+      "lines": 27,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/dataRuleListForFunction.jsp",
+      "lines": 27,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsList.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/users.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleList-select.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/log/statisticTabs.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dbsource/dbSourceList.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/document/filesList.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/form_querysBuilder.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/excel/jxlsOne2manyIndex.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgformSynChoice.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/cgformftl/cgformFtl.jsp",
+      "lines": 26,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/usersign.jsp",
+      "lines": 24,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/typegroup.jsp",
+      "lines": 23,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/button/cgformButtonList.jsp",
+      "lines": 23,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/timeout.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/interrole/interroleUserList.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/userinfo.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/roleUserList.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/icon/iconList.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/tabsDemo.jsp",
+      "lines": 22,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/notice/noticeinfo.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/mySms-info.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/role/role.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/operation/operationList.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/tsinterface/ruleDataList.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/uploadView2.jsp",
+      "lines": 21,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/mutilang/mutiLangList.jsp",
+      "lines": 20,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/dataRule/ruleDataList.jsp",
+      "lines": 20,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgformColUpload.jsp",
+      "lines": 20,
+      "complexity": "low"
+    },
+    {
+      "path": "plug-in/ueditor/jsp/getContent.jsp",
+      "lines": 19,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/getContent.jsp",
+      "lines": 19,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/sms/tSSmsSqlList.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/user/interfaceUserList.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/zsign.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/upload/pub_excel_upload.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/graphreport/jformGraphreportUpload.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgformMigrateSqlInclude.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/excel/upload.jsp",
+      "lines": 18,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/typeList.jsp",
+      "lines": 17,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/login/pwd_init.jsp",
+      "lines": 16,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/organzation/departUserList.jsp",
+      "lines": 15,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/depart/departUserList.jsp",
+      "lines": 15,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/logrp-onlyData.jsp",
+      "lines": 15,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/common/error.jsp",
+      "lines": 15,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/jeecg/cgform/config/cgForms.jsp",
+      "lines": 15,
+      "complexity": "low"
+    },
+    {
+      "path": "index.jsp",
+      "lines": 13,
+      "complexity": "low"
+    },
+    {
+      "path": "context/layui.jsp",
+      "lines": 12,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/left.jsp",
+      "lines": 10,
+      "complexity": "low"
+    },
+    {
+      "path": "context/mytags.jsp",
+      "lines": 9,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/shortcut_top.jsp",
+      "lines": 9,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/type/typeGroupTabs.jsp",
+      "lines": 8,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/sliding_top.jsp",
+      "lines": 7,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/main/bootstrap_top.jsp",
+      "lines": 5,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/com/jeecg/demo/tabDemo.jsp",
+      "lines": 5,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/content/plug-in/ueditor/jsp/error.jsp",
+      "lines": 1,
+      "complexity": "low"
+    },
+    {
+      "path": "webpage/system/druid/index.jsp",
+      "lines": 1,
+      "complexity": "low"
+    }
+  ],
+  "tag_usage": {
+    "<t:base": 264,
+    "<t:mutiLang": 780,
+    "<t:menu": 10,
+    "<t:datagrid": 106,
+    "<t:dgCol": 808,
+    "<t:dgFunOpt": 66,
+    "<t:dictSelect": 132,
+    "<t:formvalid": 127,
+    "<t:userSelect": 3,
+    "<t:tabs": 22,
+    "<t:tab": 32,
+    "<t:dgDelOpt": 52,
+    "<t:dgToolBar": 241,
+    "<t:choose": 8,
+    "<t:dgConfOpt": 7,
+    "<t:departSelect": 3,
+    "<t:upload": 21,
+    "<t:webUploader": 11,
+    "<t:dgDefOpt": 1,
+    "<t:dgOpenOpt": 1,
+    "<t:comboTree": 1,
+    "<t:selectZTree": 1,
+    "<t:autocomplete": 1,
+    "<t:orgSelect": 1,
+    "<t:treeSelectTag": 1,
+    "<t:hasPermission": 3,
+    "<t:authFilter": 2,
+    "<t:menuButtons": 3,
+    "<t:ckeditor": 1
+  },
+  "script_usage": {
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery-1.8.3.min.js\">": 6,
+    "<script type=\"text/javascript\">": 313,
+    "<script>": 71,
+    "<script src=\"../ueditor.parse.js\" type=\"text/javascript\">": 2,
+    "<script src=\"content/chat/layui/layui.js\">": 1,
+    "<script src=\"plug-in/layim/config.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/webos1.2/js/jquery-1.7.1.min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery-powerFloat-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery-smartMenu-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery-class.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/artDialog.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/iframeTools.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.core-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.widget-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.mouse-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.draggable-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.droppable-min.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.ui.sortable.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/jquery.cookie.js\">": 1,
+    "<script  type=\"text/javascript\" src=\"plug-in/sliding/js/webos-core.js\">": 1,
+    "<script src=\"plug-in/hplus/js/jquery.min.js?v=2.1.4\">": 5,
+    "<script src=\"plug-in/hplus/js/bootstrap.min.js?v=3.3.6\">": 4,
+    "<script src=\"plug-in/hplus/js/plugins/layer/layer.min.js\">": 3,
+    "<script src=\"plug-in/hplus/js/content.js\">": 4,
+    "<script src=\"plug-in/ace/js/ace-extra.js\">": 3,
+    "<script src=\"plug-in/ace/js/html5shiv.js\">": 3,
+    "<script src=\"plug-in/ace/js/respond.js\">": 3,
+    "<script src='plug-in/ace/js/jquery.js'>": 2,
+    "<script src='plug-in/ace/js/jquery1x.js'>": 2,
+    "<script src='plug-in/ace/js/jquery.mobile.custom.js'>": 2,
+    "<script src=\"plug-in/ace/js/bootstrap.js\">": 3,
+    "<script src=\"plug-in/ace/js/bootbox.js\">": 3,
+    "<script src=\"plug-in/ace/js/jquery-ui.js\">": 2,
+    "<script src=\"plug-in/ace/js/jquery.ui.touch-punch.js\">": 2,
+    "<script src=\"plug-in/jquery/jquery.contextmenu.js\">": 3,
+    "<script src=\"plug-in/layer/layer.js\">": 5,
+    "<script src=\"plug-in/ace/js/ace/elements.scroller.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.colorpicker.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.fileinput.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.typeahead.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.wysiwyg.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.spinner.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.treeview.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.wizard.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/elements.aside.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.ajax-content.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.touch-drag.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.sidebar.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.sidebar-scroll-1.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.submenu-hover.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.widget-box.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.settings.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.settings-rtl.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.settings-skin.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.widget-on-reload.js\">": 2,
+    "<script src=\"plug-in/ace/js/ace/ace.searchbox-autocomplete.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery-plugs/i18n/jquery.i18n.properties.js\">": 8,
+    "<script src=\"plug-in/jquery-plugs/storage/jquery.storageapi.min.js\">": 6,
+    "<script type=\"text/javascript\" src=\"plug-in/accordion/js/leftmenu.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/metisMenu/jquery.metisMenu.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/slimscroll/jquery.slimscroll.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/hplus.js?v=4.1.0\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/hplus/jquery-smartMenu.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/hplus/contabs.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/pace/pace.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/sweetalert/sweetalert.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/hplus/hplus-tab.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/accordion/js/left_shortcut_menu.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/easyui/portal/jquery.portal.js\">": 3,
+    "<script src=\"plug-in/laydate/laydate.js\">": 5,
+    "<script type=\"text/javascript\" src=\"plug-in/echart/echarts.min.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/login/js/getMsgs.js\">": 3,
+    "<script type=\"text/javascript\" src=\"http://tajs.qq.com/stats?sId=9051096\" charset=\"UTF-8\">": 2,
+    "<script src=\"plug-in/jquery/jquery-1.9.1.js\">": 5,
+    "<script src=\"plug-in/themes/adminlte/js/jquery-ui.min.js\">": 2,
+    "<script src=\"plug-in/themes/adminlte/js/bootstrap.min.js\">": 2,
+    "<script src=\"plug-in/themes/adminlte/js/raphael.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/morris.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/jquery.sparkline.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/jquery-jvectormap-1.2.2.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/jquery-jvectormap-world-mill-en.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/jquery.knob.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/moment.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/daterangepicker.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/bootstrap-datepicker.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/bootstrap3-wysihtml5.all.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/jquery.slimscroll.min.js\">": 2,
+    "<script src=\"plug-in/themes/adminlte/js/fastclick.js\">": 2,
+    "<script src=\"plug-in/themes/adminlte/js/adminlte.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/dashboard.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/demo.js\">": 2,
+    "<script src=\"plug-in/jquery-plugs/i18n/jquery.i18n.properties.js\">": 1,
+    "<script src=\"plug-in/lhgDialog/lhgdialog.min.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/adminlte.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/app.js\">": 1,
+    "<script src=\"plug-in/themes/adminlte/js/app_iframe.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/Highcharts-2.2.5/js/highcharts.src.js\">": 5,
+    "<script type=\"text/javascript\" src=\"plug-in/Highcharts-2.2.5/js/modules/exporting.src.js\">": 5,
+    "<script src=\"plug-in/ace/assets/js/ace-extra.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/html5shiv.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/respond.min.js\">": 1,
+    "<script src='plug-in/ace/assets/js/jquery-2.0.3.min.js'>": 1,
+    "<script src='plug-in/ace/assets/js/jquery-1.10.2.min.js'>": 1,
+    "<script src='plug-in/ace/assets/js/jquery.mobile.custom.min.js'>": 1,
+    "<script src=\"plug-in/ace/assets/js/jquery-ui-1.10.3.custom.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/bootstrap.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/typeahead-bs2.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/excanvas.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/ace-elements.min.js\">": 1,
+    "<script src=\"plug-in/ace/assets/js/ace.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/ace/assets/js/bootstrap-tab.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/bootstrap/js/bootstrap.min.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/accordion/js/bootstrap_main.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/themes/fineui/common/js/sccl.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/themes/fineui/common/js/sccl-util.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/themes/fineui/smart-menu/jquery-smartMenu.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery-autocomplete/jquery.autocomplete.min.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/ace/js/bootstrap-tab.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery-1.9.1.js\">": 5,
+    "<script type=\"text/javascript\" src=\"plug-in/layer/layer.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery.cookie.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/login/js/jquery-jrumble.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/login/js/jquery.tipsy.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/login/js/iphone.check.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/login/js/login.js\">": 2,
+    "<script src=<%=langurl%>": 2,
+    "<script src=\"plug-in/login/js/html5.js\">": 1,
+    "<script src=\"plug-in/login/js/iepng.js\" type=\"text/javascript\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/lhgDialog/lhgdialog.min.js\">": 8,
+    "<script type=\"text/javascript\" src=\"plug-in/mutiLang/en.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/mutiLang/zh-cn.js\">": 1,
+    "<script type=\"text/javascript\" src=\"webpage/login/login-ace.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/ztree/js/jquery.ztree.core-3.5.min.js\">": 15,
+    "<script type=\"text/javascript\" src=\"plug-in/ztree/js/ztreeCreator.js\">": 8,
+    "<script type=\"text/javascript\" src=\"plug-in/ztree/js/jquery.ztree.excheck-3.5.min.js\">": 9,
+    "<script src = \"webpage/system/position/tSCompanyPositionList.js\">": 11,
+    "<script src = \"webpage/com/jeecg/test/tSCompanyPosition.js\">": 2,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/ueditor/ueditor.config.js\">": 2,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/ueditor/ueditor.all.js\">": 2,
+    "<script id=\"content\" type=\"text/plain\" style=\"width:95%\" value='${tSNoticePage.noticeContent}'>": 1,
+    "<script id=\"content\" type=\"text/plain\" style=\"width:95%\" >": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\">": 2,
+    "<script type=\"text/javascript\" charset=\"UTF-8\">": 2,
+    "<script src=\"plug-in/ace/js/jquery.js\">": 1,
+    "<script type=text/javascript src=\"plug-in/clipboard/ZeroClipboard.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery-1.8.3.js\">": 7,
+    "<script type=\"text/javascript\" src=\"plug-in/ichart/js/ichart-1.0.js\">": 1,
+    "<script src=\"webpage/jeecg/cgdynamgraph/core/cgDynamGraphDesignMobile.js\">": 1,
+    "<script src=\"plug-in/zsign/js/jquery-1.7.1.min.js\" type=\"text/javascript\">": 1,
+    "<script src=\"plug-in/zsign/js/jquery.zsign.js\" type=\"text/javascript\">": 1,
+    "<script src=\"https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js\">": 1,
+    "<script src=\"plug-in/bootstrap3.3.5/js/bootstrap.min.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js\">": 1,
+    "<script src=\"plug-in/bootstrap-table/bootstrap-table.js\">": 1,
+    "<script src=\"plug-in/bootstrap-table/locale/bootstrap-table-zh-CN.min.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/layer/3.1.0/layer.js\">": 4,
+    "<script src=\"plug-in/themes/bootstrap-ext/js/bootstrap-curdtools.js\">": 2,
+    "<script src=\"plug-in/bootstrap3.3.5/js/bootstrap.min.js?v=3.3.6\">": 1,
+    "<script src=\"plug-in/hplus/js/content.js?v=1.0.0\">": 1,
+    "<script type=\"text/javascript\"  charset=\"utf-8\" src=\"plug-in/qrcode/jquery.min.js\">": 1,
+    "<script type=\"text/javascript\"  charset=\"utf-8\" src=\"plug-in/qrcode/qrcode.min.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/jquery/3.3.1/jquery.js\">": 3,
+    "<script src=\"https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js\">": 3,
+    "<script src=\"https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js\">": 3,
+    "<script src=\"https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.js\">": 3,
+    "<script src=\"https://cdn.bootcss.com/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js\">": 3,
+    "<script src=\"plug-in/lhgDialog/lhgdialog.min.js?skin=metrole\">": 3,
+    "<script src=\"plug-in/vue-BootstrapTable/js/common.js\">": 3,
+    "<script src=\"plug-in/vue-BootstrapTable/js/form.js\">": 3,
+    "<script src=\"plug-in/Validform/js/Validform_v5.3.1_min_zh-cn.js\">": 2,
+    "<script src=\"plug-in/Validform/js/Validform_Datatype_zh-cn.js\">": 2,
+    "<script src=\"plug-in/Validform/js/datatype_zh-cn.js\">": 2,
+    "<script src=\"plug-in/hplus/js/jquery.min.js\">": 2,
+    "<script src=\"plug-in/hplus/js/plugins/chosen/chosen.jquery.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery.cookie.js\" >": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery-plugs/storage/jquery.storageapi.min.js\" >": 1,
+    "<script type=\"text/javascript\" src=\"<%=basePath%>": 1,
+    "<script language=\"javascript\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/webuploader/webuploader.min.js\" >": 2,
+    "<script src = \"webpage/com/jeecg/demo/jfromOrder.js\">": 2,
+    "<script src=\"https://unpkg.com/vue/dist/vue.js\">": 2,
+    "<script type=\"text/javascript\"  charset=\"utf-8\" src=\"plug-in/ueditor/ueditor.config.js\">": 8,
+    "<script type=\"text/javascript\"  charset=\"utf-8\" src=\"plug-in/ueditor/ueditor.all.min.js\">": 8,
+    "<script src=\"https://cdn.bootcss.com/vue/2.2.2/vue.js\">": 1,
+    "<script src=\"https://cdn.bootcss.com/vue-resource/1.5.0/vue-resource.js\">": 2,
+    "<script src=\"https://unpkg.com/element-ui@1.4/lib/index.js\">": 1,
+    "<script src=\"plug-in/hplus/plugins/suggest/bootstrap-suggest.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/ztree/js/jquery.ztree.core-3.5.min.js\" >": 1,
+    "<script src=\"plug-in/jquery/jquery.regionselect.js\" type=\"text/javascript\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/select2/js/select2.full.min.js\">": 1,
+    "<script src=\"plug-in/provinces/js/city-picker.data.js\">": 1,
+    "<script src=\"plug-in/provinces/js/city-picker.js\">": 1,
+    "<script src=\"plug-in/provinces/js/main.js\">": 1,
+    "<script src = \"webpage/com/jeecg/demo/jfromOrderList.js\">": 2,
+    "<script src=\"plug-in/easyui/extends/datagrid-detailview.js\">": 1,
+    "<script src = \"webpage/com/jeecg/demo/multiUpload.js\">": 2,
+    "<script src=\"plug-in/hplus/js/bootstrap.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/peity/jquery.peity.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/jquery-ui-1.10.4.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/plugins/iCheck/icheck.min.js\">": 1,
+    "<script src=\"plug-in/hplus/js/demo/peity-demo.js\">": 1,
+    "<script src=\"https://unpkg.com/element-ui@2.3.7/lib/index.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/bootstrap3.3.5/js/bootstrap.min.js\">": 2,
+    "<script src=\"plug-in/bootstrap-table/bootstrap-table-tree.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/bootstrap-table/bootstrap-table-treegrid.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/jquery/jquery.treegrid.min.js\">": 1,
+    "<script src = \"webpage/com/jeecg/demo/multiUploadList.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/plupload/plupload.full.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/plupload/jquery.plupload.queue/jquery.plupload.queue.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/plupload/i18n/zh_CN.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/hplus/js/plugins/layer/layer.min.js\">": 1,
+    "<script src=\"plug-in/plupload/plupload.full.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"webpage/com/jeecg/demo/orderOne2Many/rowedit.js\" >": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/tools/dataformat.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/easyui/jquery.easyui.min.1.3.2.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/easyui/locale/zh-cn.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/tools/syUtil.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/My97DatePicker/WdatePicker.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/tools/curdtools.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/tools/easyuiextend.js\">": 4,
+    "<script type=\"text/javascript\" src=\"plug-in/Validform/plugin/passwordStrength/passwordStrength-min.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/themes/fineui/jquery/jquery.easyui.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/mutitables/mutitables.mainpage.js\" >": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/mutitables/jquery.resize.y.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/mutitables/mutitables.urd.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/mutitables/mutitables.curdInIframe.js\">": 3,
+    "<script type=\"text/javascript\" src=\"plug-in/echart/echarts.js\">": 21,
+    "<script type=\"text/javascript\" src=\"plug-in/printthis/printThis.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/uploadify/jquery.uploadify-3.1.js\">": 2,
+    "<script src = \"webpage/com/jeecg/demo/orderOne2Many/jformOrderMain.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/Flexpaper/flexpaper_flash.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/Flexpaper/swfobject.js\">": 1,
+    "<script src = \"webpage/jeecg/graphreport/jformGraphreportHead.js\">": 2,
+    "<script src = \"webpage/jeecg/graphreport/jformGraphreportHeadList.js\">": 1,
+    "<script src=\"plug-in/clipboard/ZeroClipboard.js\">": 2,
+    "<script src=\"webpage/jeecg/cgreport/core/cgreportConfigHead.js\">": 2,
+    "<script src=\"webpage/jeecg/cgdynamgraph/core/cgDynamGraphConfigHead.js\">": 2,
+    "<script src = \"webpage/jeecg/cgform/template/cgformTemplate.js\">": 1,
+    "<script src=\"webpage/jeecg/cgform/template/cgformTemplate.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/cgform/js/cgformField.js\">": 3,
+    "<script id=\"ftlContent\" type=\"text/plain\" style=\"width:100%;\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/Formdesign/js/ueditor/ueditor.config.js?2023\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/Formdesign/js/ueditor/ueditor.all.js?2023\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/Formdesign/js/ueditor/lang/zh-cn/zh-cn.js?2023\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/Formdesign/js/ueditor/formdesign/leipi.formdesign.v4.js?2023\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\" src=\"plug-in/Formdesign/js/ueditor/formdesign/weixinplugs.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/ckeditor/ckeditor.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/cgform/js/fileTree.js\">": 2,
+    "<script type=\"text/javascript\" src=\"plug-in/Validform/js/Validform_v5.3.1_min_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/Validform/js/Validform_Datatype_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/Validform/js/datatype_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/easyui/jquery.easyui.min.1.3.2.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/My97DatePicker/WdatePicker.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/Validform/js/Validform_v5.3.1_min_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/Validform/js/Validform_Datatype_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/Validform/js/datatype_zh-cn.js\">": 1,
+    "<script type=\"text/javascript\"\n\tsrc=\"plug-in/Validform/plugin/passwordStrength/passwordStrength-min.js\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\"\n\tsrc=\"plug-in/ueditor/ueditor.config.js\">": 1,
+    "<script type=\"text/javascript\" charset=\"utf-8\"\n\tsrc=\"plug-in/ueditor/ueditor.all.min.js\">": 1,
+    "<script type=\"text/javascript\" src=\"plug-in/ztree/js/ztreeCreator.js\" >": 2,
+    "<script src = \"webpage/jeecg/superquery/superQueryMain.js\">": 1,
+    "<script  src=\"webpage/jeecg/superquery/superQueryMain.js\">": 2,
+    "<script src=\"webpage/jeecg/superquery/superQueryMain.js\">": 1
+  },
+  "complexity_distribution": {
+    "low": 335,
+    "medium": 41,
+    "high": 12
+  }
+}

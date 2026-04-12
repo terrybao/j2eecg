@@ -1,0 +1,41 @@
+JEECG 项目 JSP 文件分析报告
+============================================================
+总文件数: 388
+总行数: 49730
+平均行数: 128
+
+复杂度分布:
+low: 335 files
+medium: 41 files
+high: 12 files
+
+JSP 标签使用情况:
+<t:dgCol: 808
+<t:mutiLang: 780
+<t:base: 264
+<t:dgToolBar: 241
+<t:dictSelect: 132
+<t:formvalid: 127
+<t:datagrid: 106
+<t:dgFunOpt: 66
+<t:dgDelOpt: 52
+<t:tab: 32
+
+脚本标签使用情况:
+<script type="text/javascript">: 313
+<script>: 71
+<script type="text/javascript" src="plug-in/echart/echarts.js">: 21
+<script type="text/javascript" src="plug-in/ztree/js/jquery.ztree.core-3.5.min.js">: 15
+<script src = "webpage/system/position/tSCompanyPositionList.js">: 11
+
+文件复杂度排名前10:
+1. webpage/com/jeecg/demo/echartsDemo/PointChart3.jsp - 1613 lines - high
+2. webpage/main/fineui_home.jsp - 1538 lines - high
+3. webpage/main/diy.jsp - 1255 lines - high
+4. webpage/jeecg/superquery/dialog.jsp - 988 lines - high
+5. webpage/main/hplushome.jsp - 970 lines - high
+6. webpage/main/ace_main2.jsp - 919 lines - high
+7. webpage/main/ace_main.jsp - 838 lines - high
+8. webpage/com/jeecg/demo/echartsDemo/bootstrap-echarts.jsp - 677 lines - high
+9. webpage/main/adminlte_main.jsp - 660 lines - high
+10. webpage/main/adminlte_home.jsp - 594 lines - high
