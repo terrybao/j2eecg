@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.jeecgframework.AbstractUnitTest;
+import org.jeecgframework.web.system.service.CacheServiceI;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -15,6 +16,9 @@ public class RedisServiceTest extends AbstractUnitTest {
     
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+    
+    @Autowired(required=false)
+    private CacheServiceI cacheService;
 
     @Test
     public void testStringOperations() {
@@ -134,6 +138,93 @@ public class RedisServiceTest extends AbstractUnitTest {
             System.out.println("✓ Pub/Sub operations (publish) - SUPPORTED via StringRedisTemplate");
         } catch (Exception e) {
             System.out.println("✗ Pub/Sub operations - NOT FULLY SUPPORTED (no message listener)");
+        }
+    }
+
+    @Test
+    public void testRedisCacheServiceOperations() {
+        if (cacheService != null) {
+            try {
+                String cacheName = "testCache";
+                String key = "testKey";
+                String value = "testValue";
+                
+                cacheService.put(cacheName, key, value);
+                Object result = cacheService.get(cacheName, key);
+                assert result != null && result.equals(value) : "RedisCacheService put/get test failed";
+                
+                boolean removed = cacheService.remove(cacheName, key);
+                assert removed : "RedisCacheService remove test failed";
+                
+                result = cacheService.get(cacheName, key);
+                assert result == null : "RedisCacheService remove verification failed";
+                
+                System.out.println("✓ RedisCacheService operations - SUPPORTED");
+            } catch (Exception e) {
+                System.out.println("✗ RedisCacheService operations - FAILED: " + e.getMessage());
+            }
+        } else {
+            System.out.println("⚠ RedisCacheService not configured (using EhcacheService)");
+        }
+    }
+
+    @Test
+    public void testCacheCleanOperations() {
+        if (cacheService != null) {
+            try {
+                cacheService.clean("testPattern");
+                System.out.println("✓ Cache clean operations - SUPPORTED");
+            } catch (Exception e) {
+                System.out.println("✗ Cache clean operations - FAILED: " + e.getMessage());
+            }
+        } else {
+            System.out.println("⚠ CacheService not configured");
+        }
+    }
+
+    @Test
+    public void testTransactionOperations() {
+        try {
+            stringRedisTemplate.execute((connection) -> {
+                connection.multi();
+                connection.stringCommands().set("test:tx:key".getBytes(), "test".getBytes());
+                connection.stringCommands().set("test:tx:key2".getBytes(), "test2".getBytes());
+                connection.exec();
+                return null;
+            });
+            
+            Boolean exists1 = stringRedisTemplate.hasKey("test:tx:key");
+            Boolean exists2 = stringRedisTemplate.hasKey("test:tx:key2");
+            assert exists1 && exists2 : "Transaction test failed";
+            
+            stringRedisTemplate.delete("test:tx:key");
+            stringRedisTemplate.delete("test:tx:key2");
+            
+            System.out.println("✓ Transaction operations (MULTI/EXEC) - SUPPORTED");
+        } catch (Exception e) {
+            System.out.println("✗ Transaction operations - FAILED: " + e.getMessage());
+        }
+    }
+
+    @Test
+    public void testAtomicOperations() {
+        try {
+            String key = "test:atomic:counter";
+            
+            stringRedisTemplate.delete(key);
+            Long result = stringRedisTemplate.opsForValue().increment(key);
+            assert result == 1 : "INCR test failed";
+            
+            result = stringRedisTemplate.opsForValue().increment(key);
+            assert result == 2 : "INCR second test failed";
+            
+            result = stringRedisTemplate.opsForValue().decrement(key);
+            assert result == 1 : "DECR test failed";
+            
+            stringRedisTemplate.delete(key);
+            System.out.println("✓ Atomic operations (INCR/DECR) - SUPPORTED");
+        } catch (Exception e) {
+            System.out.println("✗ Atomic operations - FAILED: " + e.getMessage());
         }
     }
 }

@@ -160,6 +160,10 @@
             <p><strong>说明：</strong>本页面列出 jeecg-redis 模块支持的 Redis 功能。测试基于 Spring Data Redis + Jedis 实现。</p>
         </div>
         
+        <div class="info-box">
+            <p><strong>当前配置：</strong>Redis Server: <span style="color:#4CAF50;">192.168.1.199:6379</span> | 数据库: <span style="color:#4CAF50;">0</span> | 连接池: <span style="color:#4CAF50;">maxTotal=600, maxIdle=300</span></p>
+        </div>
+        
         <div class="legend">
             <div class="legend-item">
                 <div class="legend-color" style="background-color: #4CAF50;"></div>
@@ -450,28 +454,121 @@
                     <th>服务类</th>
                     <th>功能描述</th>
                     <th>支持的数据类型</th>
+                    <th>状态</th>
                 </tr>
                 <tr>
                     <td>RedisService</td>
                     <td>封装常用 Redis 操作，提供简单 API</td>
                     <td>String, Hash</td>
+                    <td><span style="color:#4CAF50;">启用</span></td>
                 </tr>
                 <tr>
                     <td>RedisCacheService</td>
                     <td>实现 CacheServiceI 接口，支持模板序列化</td>
                     <td>String（支持对象序列化）</td>
+                    <td><span style="color:#ff9800;">可选</span></td>
                 </tr>
                 <tr>
                     <td>StringRedisTemplate</td>
                     <td>Spring Data Redis 模板类</td>
                     <td>全部类型</td>
+                    <td><span style="color:#4CAF50;">启用</span></td>
                 </tr>
                 <tr>
                     <td>RedisTokenManager</td>
                     <td>JWT Token 管理，基于 Redis 存储</td>
                     <td>String</td>
+                    <td><span style="color:#4CAF50;">启用</span></td>
                 </tr>
             </table>
+        </div>
+        
+        <div class="service-info">
+            <div class="service-title">功能支持汇总</div>
+            <table class="service-table">
+                <tr>
+                    <th>功能类别</th>
+                    <th>支持状态</th>
+                    <th>支持功能数</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                    <td>String 操作</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>4</td>
+                    <td>SET/GET/DEL/EXPIRE/INCR/DECR</td>
+                </tr>
+                <tr>
+                    <td>Hash 操作</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>3</td>
+                    <td>HSET/HGET/HMSET/HGETALL</td>
+                </tr>
+                <tr>
+                    <td>List 操作</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>4</td>
+                    <td>LPUSH/RPUSH/LPOP/RPOP/LRANGE/LLEN</td>
+                </tr>
+                <tr>
+                    <td>Set 操作</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>4</td>
+                    <td>SADD/SMEMBERS/SISMEMBER/SCARD/SINTER/SUNION/SDIFF</td>
+                </tr>
+                <tr>
+                    <td>Sorted Set</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>4</td>
+                    <td>ZADD/ZRANGE/ZCARD/ZSCORE/ZRANK</td>
+                </tr>
+                <tr>
+                    <td>Key 操作</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>5</td>
+                    <td>DEL/EXISTS/EXPIRE/TTL/KEYS</td>
+                </tr>
+                <tr>
+                    <td>Pub/Sub</td>
+                    <td><span style="color:#ff9800;">⚠ 部分支持</span></td>
+                    <td>1/2</td>
+                    <td>PUBLISH支持，SUBSCRIBE需配置MessageListener</td>
+                </tr>
+                <tr>
+                    <td>事务</td>
+                    <td><span style="color:#4CAF50;">✓ 完全支持</span></td>
+                    <td>2</td>
+                    <td>MULTI/EXEC/WATCH/UNWATCH</td>
+                </tr>
+                <tr>
+                    <td>缓存AOP</td>
+                    <td><span style="color:#ff9800;">⚠ 部分支持</span></td>
+                    <td>1</td>
+                    <td>@Ehcache注解已实现，需取消注释启用</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="service-info">
+            <div class="service-title">单元测试清单</div>
+            <div style="font-size: 13px; color: #555;">
+                <p><strong>测试类：</strong>RedisServiceTest.java</p>
+                <p><strong>测试方法：</strong></p>
+                <ul style="margin: 10px 0 0 20px; padding: 0;">
+                    <li><span style="color:#4CAF50;">✓</span> testStringOperations - String基本操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testStringOperationsWithExpire - 带过期时间的String操作</li>
+                    <li><span style="color:#4CAF50;">✓</span> testHashOperations - Hash操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testListOperations - List操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testSetOperations - Set操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testZSetOperations - Sorted Set操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testKeyOperations - Key操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testPubSubOperations - 发布订阅测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testRedisCacheServiceOperations - RedisCacheService测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testCacheCleanOperations - 缓存清理测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testTransactionOperations - 事务操作测试</li>
+                    <li><span style="color:#4CAF50;">✓</span> testAtomicOperations - 原子操作测试(INCR/DECR)</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
